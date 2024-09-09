@@ -1,0 +1,21 @@
+2024-07-13T06:31:43+00:00 CRITICAL Uncaught Error: Call to a member function find_product_in_cart() on null in /var/www/html/wp-content/themes/hello-theme-child-master/functions.php:405
+Stack trace:
+#0 /var/www/html/wp-includes/class-wp-hook.php(326): already_in_cart_single_product('Add to bag only')
+#1 /var/www/html/wp-includes/plugin.php(205): WP_Hook->apply_filters('Add to bag only', Array)
+#2 /var/www/html/wp-content/plugins/woocommerce/includes/abstracts/abstract-wc-product.php(1936): apply_filters('woocommerce_pro...', 'Add to cart', Object(WC_Product_Simple))
+#3 /var/www/html/wp-content/plugins/woolentor-addons/woolentor-blocks/includes/classes/Api/Api.php(294): WC_Product->single_add_to_cart_text()
+#4 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1230): WooLentorBlocks\Api\Api->get_last_product_data(Object(WP_REST_Request))
+#5 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(1063): WP_REST_Server->respond_to_request(Object(WP_REST_Request), '/woolentor/v1/s...', Array, NULL)
+#6 /var/www/html/wp-includes/rest-api/class-wp-rest-server.php(439): WP_REST_Server->dispatch(Object(WP_REST_Request))
+#7 /var/www/html/wp-includes/rest-api.php(428): WP_REST_Server->serve_request('/woolentor/v1/s...')
+#8 /var/www/html/wp-includes/class-wp-hook.php(324): rest_api_loaded(Object(WP))
+#9 /var/www/html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters(NULL, Array)
+#10 /var/www/html/wp-includes/plugin.php(565): WP_Hook->do_action(Array)
+#11 /var/www/html/wp-includes/class-wp.php(418): do_action_ref_array('parse_request', Array)
+#12 /var/www/html/wp-includes/class-wp.php(813): WP->parse_request('')
+#13 /var/www/html/wp-includes/functions.php(1336): WP->main('')
+#14 /var/www/html/wp-blog-header.php(16): wp()
+#15 /var/www/html/index.php(17): require('/var/www/html/w...')
+#16 {main}
+  thrown in /var/www/html/wp-content/themes/hello-theme-child-master/functions.php on line 405
+

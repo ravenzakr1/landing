@@ -1,0 +1,4 @@
+<?php
+if (!defined('ABSPATH')) die('No direct access allowed');
+
+$GLOBALS['wpo_cache_config'] = json_decode('{"enable_page_caching":false,"page_cache_length_value":24,"page_cache_length_unit":"hours","page_cache_length":86400,"cache_exception_conditional_tags":[],"cache_exception_urls":[],"cache_exception_cookies":[],"cache_exception_browser_agents":[],"enable_sitemap_preload":false,"enable_schedule_preload":false,"preload_schedule_type":"","enable_mobile_caching":false,"enable_user_caching":false,"site_url":"https:\\/\\/feelme.com\\/","enable_cache_per_country":false,"permalink_structure":"\\/blog\\/%postname%\\/","uploads":"\\/var\\/www\\/html\\/wp-content\\/uploads","gmt_offset":"0","timezone_string":"","date_format":"F j, Y","time_format":"g:i a","use_webp_images":false,"wpo_cache_cookies":[],"wpo_cache_query_variables":[]}', true);

@@ -1,0 +1,82 @@
+name: Deploy to AWS
+
+on:
+  push:
+    branches:
+      - deploy-to-prd
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    env:
+      ECR_REPOSITORY: landing-feelme-wp
+      IMAGE_NAME: wp
+      IMAGE_TAG: ${{ github.sha }}
+      ENVIRONMENT: dev
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up AWS CLI
+      uses: aws-actions/configure-aws-credentials@v1
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ secrets.AWS_REGION }}
+
+    - name: Log in to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v1
+
+    - name: Login to ECR in us-east-1 region
+      run: |
+        aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 664696836173.dkr.ecr.us-east-1.amazonaws.com
+
+    - name: Build and tag Docker image
+      run: |
+        docker images
+        ECR_REGISTRY="664696836173.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com"
+        docker build -t $IMAGE_NAME:$IMAGE_TAG .
+        docker images
+        docker tag $IMAGE_NAME:$IMAGE_TAG $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+        docker tag $IMAGE_NAME:$IMAGE_TAG $ECR_REGISTRY/$ECR_REPOSITORY:latest
+        docker images 
+        echo   echo "The job_id is: $IMAGE_TAG" 
+
+    - name: Push Docker image to ECR
+      run: |
+        docker images
+        ECR_REGISTRY="664696836173.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com"
+        docker push 664696836173.dkr.ecr.us-east-1.amazonaws.com/landing-feelme-wp:$IMAGE_TAG
+        docker push 664696836173.dkr.ecr.us-east-1.amazonaws.com/landing-feelme-wp:latest
+
+    - name: Create terraform.tfvars file for RDS database user and password allocation
+      run: |
+        echo "db_user = \"${{ secrets.DB_USER }}\"" > terraform.tfvars
+        echo "db_password = \"${{ secrets.DB_PASSWORD }}\"" >> terraform.tfvars
+
+    - name: Setup SSH
+      uses: webfactory/ssh-agent@v0.5.3
+      with:
+        ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+    - name: Clone feelme-infra repository
+      run: git clone --branch develop git@github.com:FeelRobotics/feelme-infra.git
+
+    - name: Download Terraform state from S3
+      run: |
+        cd feelme-infra/landing-feelme/environments/dev
+        aws s3 cp s3://fr-infra-us-terraform-state/terraform/ecs/landing-feelme/${{ secrets.ENVIRONMENT }}/tfstate terraform.tfstate
+
+    - name: Initialize Terraform and prepare terraform
+      run: |
+        cp terraform.tfvars feelme-infra/landing-feelme/environments/dev/terraform.tfvars
+        cd feelme-infra/landing-feelme/environments/dev
+        terraform init
+
+    - name: Apply Terraform configuration
+      run: |
+        cd feelme-infra/landing-feelme/environments/dev
+        #terraform apply -var-file="terraform.tfvars" --auto-approve -var "container_image=${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ secrets.AWS_REGION }}.amazonaws.com/$ECR_REPOSITORY:latest"
+        terraform apply -var-file="terraform.tfvars" --auto-approve 

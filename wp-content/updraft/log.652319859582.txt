@@ -1,0 +1,853 @@
+0000.000 (0) Opened log file at time: Wed, 04 Sep 2024 07:12:52 +0000 on https://feelme.com/
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.24.4 WP: 6.5.5 PHP: 8.2.22 (apache2handler, Linux ip-10-0-1-88.ec2.internal 5.10.223-212.873.amzn2.x86_64 #1 SMP Wed Aug 7 16:53:32 UTC 2024 x86_64) MySQL: 8.0.35 (max packet size=67108864) WPLANG: en_US Server: Apache/2.4.61 (Debian) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.1M | 16M) multisite: Y (sub-domain) openssl: OpenSSL 3.0.13 30 Jan 2024 mcrypt: N LANG: C ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 14500.5 MB
+0000.008 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.012 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.019 (0) Set semaphore last lock (fd) time to 2024-09-04 07:12:52
+0000.021 (0) Semaphore lock (fd) complete
+0000.033 (0) Backup run: resumption=0, nonce=652319859582, file_nonce=652319859582 begun at=1725433972 (0s ago), job type=backup
+0000.041 (0) Scheduling a resumption (1) after 300 seconds (1725434272) in case this run gets aborted
+0000.046 (0) Checking if we have a zip executable available
+0000.052 (0) Creation of backups of directories: beginning
+0000.072 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.262 (0) Total entities for the zip file: 3191 directories, 15271 files (0 skipped as non-modified), 227.8 MB
+0000.272 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.276 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.280 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.286 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.290 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.294 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.298 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.302 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.306 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.310 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.312 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (21.6 MB, 15271 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0001.660 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1100 files added (on-disk size: 7088.5 KB)
+0001.664 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1200 files added (on-disk size: 7088.5 KB)
+0001.669 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1300 files added (on-disk size: 7088.5 KB)
+0001.674 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1400 files added (on-disk size: 7088.5 KB)
+0001.678 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1500 files added (on-disk size: 7088.5 KB)
+0001.682 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1600 files added (on-disk size: 7088.5 KB)
+0001.686 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1700 files added (on-disk size: 7088.5 KB)
+0001.689 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1800 files added (on-disk size: 7088.5 KB)
+0001.693 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 1900 files added (on-disk size: 7088.5 KB)
+0001.698 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2000 files added (on-disk size: 7088.5 KB)
+0001.699 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.6 MB, 15271 files batched, 1001 (2002) added so far); re-opening (prior size: 7088.5 KB)
+0002.167 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2100 files added (on-disk size: 9463.4 KB)
+0002.176 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2200 files added (on-disk size: 9463.4 KB)
+0002.182 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2300 files added (on-disk size: 9463.4 KB)
+0002.188 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2400 files added (on-disk size: 9463.4 KB)
+0002.193 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2500 files added (on-disk size: 9463.4 KB)
+0002.205 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2600 files added (on-disk size: 9463.4 KB)
+0002.211 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2700 files added (on-disk size: 9463.4 KB)
+0002.217 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2800 files added (on-disk size: 9463.4 KB)
+0002.223 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 2900 files added (on-disk size: 9463.4 KB)
+0002.239 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3000 files added (on-disk size: 9463.4 KB)
+0002.241 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.4 MB, 15271 files batched, 1001 (3003) added so far); re-opening (prior size: 9463.4 KB)
+0002.742 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3100 files added (on-disk size: 12614.5 KB)
+0002.746 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3200 files added (on-disk size: 12614.5 KB)
+0002.750 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3300 files added (on-disk size: 12614.5 KB)
+0002.754 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3400 files added (on-disk size: 12614.5 KB)
+0002.760 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3500 files added (on-disk size: 12614.5 KB)
+0002.764 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3600 files added (on-disk size: 12614.5 KB)
+0002.768 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3700 files added (on-disk size: 12614.5 KB)
+0002.772 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3800 files added (on-disk size: 12614.5 KB)
+0002.776 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 3900 files added (on-disk size: 12614.5 KB)
+0002.780 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4000 files added (on-disk size: 12614.5 KB)
+0002.782 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (18.1 MB, 15271 files batched, 1001 (4004) added so far); re-opening (prior size: 12614.5 KB)
+0003.732 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4100 files added (on-disk size: 22951.2 KB)
+0003.738 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4200 files added (on-disk size: 22951.2 KB)
+0003.743 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4300 files added (on-disk size: 22951.2 KB)
+0003.749 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4400 files added (on-disk size: 22951.2 KB)
+0003.754 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4500 files added (on-disk size: 22951.2 KB)
+0003.760 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4600 files added (on-disk size: 22951.2 KB)
+0003.766 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4700 files added (on-disk size: 22951.2 KB)
+0003.771 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4800 files added (on-disk size: 22951.2 KB)
+0003.777 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 4900 files added (on-disk size: 22951.2 KB)
+0003.782 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5000 files added (on-disk size: 22951.2 KB)
+0003.784 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.3 MB, 15271 files batched, 1001 (5005) added so far); re-opening (prior size: 22951.2 KB)
+0004.376 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5100 files added (on-disk size: 25091.2 KB)
+0004.381 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5200 files added (on-disk size: 25091.2 KB)
+0004.399 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5300 files added (on-disk size: 25091.2 KB)
+0004.407 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5400 files added (on-disk size: 25091.2 KB)
+0004.423 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5500 files added (on-disk size: 25091.2 KB)
+0004.433 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5600 files added (on-disk size: 25091.2 KB)
+0004.445 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5700 files added (on-disk size: 25091.2 KB)
+0004.463 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5800 files added (on-disk size: 25091.2 KB)
+0004.476 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 5900 files added (on-disk size: 25091.2 KB)
+0004.490 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6000 files added (on-disk size: 25091.2 KB)
+0004.499 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (1.9 MB, 15271 files batched, 1001 (6006) added so far); re-opening (prior size: 25091.2 KB)
+0004.937 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6100 files added (on-disk size: 26133.7 KB)
+0004.943 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6200 files added (on-disk size: 26133.7 KB)
+0004.948 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6300 files added (on-disk size: 26133.7 KB)
+0004.956 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6400 files added (on-disk size: 26133.7 KB)
+0004.961 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6500 files added (on-disk size: 26133.7 KB)
+0004.966 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6600 files added (on-disk size: 26133.7 KB)
+0004.971 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6700 files added (on-disk size: 26133.7 KB)
+0004.976 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6800 files added (on-disk size: 26133.7 KB)
+0004.982 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 6900 files added (on-disk size: 26133.7 KB)
+0004.989 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7000 files added (on-disk size: 26133.7 KB)
+0004.991 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.8 MB, 15271 files batched, 1001 (7007) added so far); re-opening (prior size: 26133.7 KB)
+0005.451 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7100 files added (on-disk size: 27438.1 KB)
+0005.463 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7200 files added (on-disk size: 27438.1 KB)
+0005.468 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7300 files added (on-disk size: 27438.1 KB)
+0005.478 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7400 files added (on-disk size: 27438.1 KB)
+0005.488 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7500 files added (on-disk size: 27438.1 KB)
+0005.493 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7600 files added (on-disk size: 27438.1 KB)
+0005.509 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7700 files added (on-disk size: 27438.1 KB)
+0005.514 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7800 files added (on-disk size: 27438.1 KB)
+0005.521 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 7900 files added (on-disk size: 27438.1 KB)
+0005.526 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8000 files added (on-disk size: 27438.1 KB)
+0005.533 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (8.5 MB, 15271 files batched, 1001 (8008) added so far); re-opening (prior size: 27438.1 KB)
+0006.308 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8100 files added (on-disk size: 30720.1 KB)
+0006.314 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8200 files added (on-disk size: 30720.1 KB)
+0006.319 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8300 files added (on-disk size: 30720.1 KB)
+0006.325 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8400 files added (on-disk size: 30720.1 KB)
+0006.330 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8500 files added (on-disk size: 30720.1 KB)
+0006.336 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8600 files added (on-disk size: 30720.1 KB)
+0006.341 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8700 files added (on-disk size: 30720.1 KB)
+0006.353 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (26.4 MB, 15271 files batched, 736 (8744) added so far); re-opening (prior size: 30720.1 KB)
+0008.723 (0) A useful amount of data was added after this amount of zip processing: 2.7 s (normalised: 2.5 s, rate: 10128.1 KB/s)
+0008.728 (0) Performance is good - will increase the amount of data we attempt to batch (time=2.6651930809021, normalised_time=2.5276268653369, max_time=8.7250661849976, data points known=1, old_max_bytes=26214400, new_max_bytes=62226906)
+0008.780 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8800 files added (on-disk size: 37815.1 KB)
+0008.785 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 8900 files added (on-disk size: 37815.1 KB)
+0008.790 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9000 files added (on-disk size: 37815.1 KB)
+0008.794 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9100 files added (on-disk size: 37815.1 KB)
+0008.798 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9200 files added (on-disk size: 37815.1 KB)
+0008.803 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9300 files added (on-disk size: 37815.1 KB)
+0008.807 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9400 files added (on-disk size: 37815.1 KB)
+0008.812 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9500 files added (on-disk size: 37815.1 KB)
+0008.816 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9600 files added (on-disk size: 37815.1 KB)
+0008.820 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9700 files added (on-disk size: 37815.1 KB)
+0008.823 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (33.2 MB, 15271 files batched, 1001 (9745) added so far); re-opening (prior size: 37815.1 KB)
+0011.151 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9800 files added (on-disk size: 46399.6 KB)
+0011.157 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 9900 files added (on-disk size: 46399.6 KB)
+0011.162 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10000 files added (on-disk size: 46399.6 KB)
+0011.167 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10100 files added (on-disk size: 46399.6 KB)
+0011.173 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10200 files added (on-disk size: 46399.6 KB)
+0011.178 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10300 files added (on-disk size: 46399.6 KB)
+0011.184 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10400 files added (on-disk size: 46399.6 KB)
+0011.189 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10500 files added (on-disk size: 46399.6 KB)
+0011.194 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10600 files added (on-disk size: 46399.6 KB)
+0011.199 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10700 files added (on-disk size: 46399.6 KB)
+0011.203 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (20.5 MB, 15271 files batched, 1001 (10746) added so far); re-opening (prior size: 46399.6 KB)
+0012.844 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10800 files added (on-disk size: 51320.6 KB)
+0012.849 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 10900 files added (on-disk size: 51320.6 KB)
+0012.853 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11000 files added (on-disk size: 51320.6 KB)
+0012.857 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11100 files added (on-disk size: 51320.6 KB)
+0012.862 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11200 files added (on-disk size: 51320.6 KB)
+0012.866 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11300 files added (on-disk size: 51320.6 KB)
+0012.870 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11400 files added (on-disk size: 51320.6 KB)
+0012.874 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11500 files added (on-disk size: 51320.6 KB)
+0012.878 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11600 files added (on-disk size: 51320.6 KB)
+0012.883 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11700 files added (on-disk size: 51320.6 KB)
+0012.885 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (23.9 MB, 15271 files batched, 1001 (11747) added so far); re-opening (prior size: 51320.6 KB)
+0015.090 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11800 files added (on-disk size: 58252.6 KB)
+0015.097 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 11900 files added (on-disk size: 58252.6 KB)
+0015.103 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12000 files added (on-disk size: 58252.6 KB)
+0015.109 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12100 files added (on-disk size: 58252.6 KB)
+0015.114 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12200 files added (on-disk size: 58252.6 KB)
+0015.123 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12300 files added (on-disk size: 58252.6 KB)
+0015.128 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12400 files added (on-disk size: 58252.6 KB)
+0015.134 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12500 files added (on-disk size: 58252.6 KB)
+0015.139 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12600 files added (on-disk size: 58252.6 KB)
+0015.145 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12700 files added (on-disk size: 58252.6 KB)
+0015.149 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (10.2 MB, 15271 files batched, 1001 (12748) added so far); re-opening (prior size: 58252.6 KB)
+0016.412 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12800 files added (on-disk size: 61244.6 KB)
+0016.417 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 12900 files added (on-disk size: 61244.6 KB)
+0016.421 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13000 files added (on-disk size: 61244.6 KB)
+0016.425 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13100 files added (on-disk size: 61244.6 KB)
+0016.430 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13200 files added (on-disk size: 61244.6 KB)
+0016.434 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13300 files added (on-disk size: 61244.6 KB)
+0016.438 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13400 files added (on-disk size: 61244.6 KB)
+0016.442 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13500 files added (on-disk size: 61244.6 KB)
+0016.446 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13600 files added (on-disk size: 61244.6 KB)
+0016.452 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13700 files added (on-disk size: 61244.6 KB)
+0016.455 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (19 MB, 15271 files batched, 1001 (13749) added so far); re-opening (prior size: 61244.6 KB)
+0018.027 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13800 files added (on-disk size: 67418.6 KB)
+0018.035 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 13900 files added (on-disk size: 67418.6 KB)
+0018.041 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14000 files added (on-disk size: 67418.6 KB)
+0018.047 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14100 files added (on-disk size: 67418.6 KB)
+0018.066 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14200 files added (on-disk size: 67418.6 KB)
+0018.077 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14300 files added (on-disk size: 67418.6 KB)
+0018.087 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14400 files added (on-disk size: 67418.6 KB)
+0018.094 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14500 files added (on-disk size: 67418.6 KB)
+0018.099 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14600 files added (on-disk size: 67418.6 KB)
+0018.105 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14700 files added (on-disk size: 67418.6 KB)
+0018.109 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (13.6 MB, 15271 files batched, 1001 (14750) added so far); re-opening (prior size: 67418.6 KB)
+0019.429 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14800 files added (on-disk size: 74137 KB)
+0019.433 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 14900 files added (on-disk size: 74137 KB)
+0019.438 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 15000 files added (on-disk size: 74137 KB)
+0019.442 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 15100 files added (on-disk size: 74137 KB)
+0019.446 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.tmp: 15200 files added (on-disk size: 74137 KB)
+0020.151 (0) Creating zip file manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.list-temp.tmp)
+0020.194 (0) Successfully created zip file manifest (size: 1392313)
+0020.964 (0) Created plugins zip (0) - 75245.5 KB in 20.9 s (3602.8 KB/s) (sha1: 96d12c36ae706d581487b9b7382046eb73c5e91a, sha256: fe16995a65099feb91f8e165dc4aaca98e59753b8c891c64e10698af064bd1b5)
+0020.981 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0020.985 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9126192af28d30d943a7aae9dd6dfcf6)
+0021.567 (0) Google Drive: creating path: /UpdraftPlus
+0023.173 (0) Google Drive: quota usage: used=147.9 MB, total=15360 MB, available=15212.1 MB
+0023.176 (0) Google Drive: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rPWwRJtQpSGBJFaZQiMrwVvCcu7tCZTB)
+0024.054 (0) Googledrive chunked upload: 1.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 17.5 / 24)
+0024.401 (0) Googledrive chunked upload: 4.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 17.5 / 24)
+0024.602 (0) Googledrive chunked upload: 9.5 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 17.5 / 24)
+0024.830 (0) Googledrive chunked upload: 20.4 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 17.5 / 24)
+0025.200 (0) Googledrive chunked upload: 42.2 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 17.5 / 24)
+0025.647 (0) Googledrive chunked upload: 85.7 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 17.5 / 24)
+0027.642 (0) Googledrive chunked upload: 100 % uploaded (66060288)
+0027.649 (0) Google Drive: OK: Archive backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip uploaded in 4.47 seconds
+0027.652 (0) Recording as successfully uploaded: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip
+0027.666 (0) Deleting local file: backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip: OK
+0027.677 (0) Beginning creation of dump of themes (split every: 400 MB)
+0027.682 (0) Total entities for the zip file: 26 directories, 162 files (0 skipped as non-modified), 3.7 MB
+0027.686 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0027.776 (0) Creating zip file manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip.list-temp.tmp)
+0027.778 (0) Successfully created zip file manifest (size: 10550)
+0027.816 (0) Created themes zip (0) - 3400 KB in 0.1 s (25134.1 KB/s) (sha1: 0bca79635fbcf44092f2c7b99d93d6f885370b6b, sha256: 21a54ca7260389ff3331c70ca98eab026d1f8ce7c925b86f985a6e8db4e9b9b8)
+0027.822 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0027.824 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9126192af28d30d943a7aae9dd6dfcf6)
+0028.134 (0) Google Drive: quota usage: used=221.4 MB, total=15360 MB, available=15138.6 MB
+0028.136 (0) Google Drive: backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip: Attempting to upload to Google Drive (into folder id: 1rPWwRJtQpSGBJFaZQiMrwVvCcu7tCZTB)
+0029.039 (0) Googledrive chunked upload: 30.1 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.3 / 22)
+0029.240 (0) Googledrive chunked upload: 90.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 15.3 / 22)
+0031.018 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0031.025 (0) Google Drive: OK: Archive backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip uploaded in 2.89 seconds
+0031.027 (0) Recording as successfully uploaded: backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip
+0031.032 (0) Deleting local file: backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip: OK
+0031.038 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0031.039 (0) Looking for candidates to backup in: /var/www/html/wp-content/uploads
+0031.041 (0) finding files: woocommerce-placeholder-1024x1024.png.webp: adding to list (1)
+0031.043 (0) finding files: wp-file-manager-pro: adding to list (2)
+0031.045 (0) finding files: elementor: adding to list (3)
+0031.047 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (4)
+0031.048 (0) finding files: woocommerce-placeholder-768x768.png.webp: adding to list (5)
+0031.051 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (6)
+0031.053 (0) finding files: elementskit: adding to list (7)
+0031.054 (0) finding files: cache: adding to list (8)
+0031.056 (0) finding files: woocommerce_uploads: adding to list (9)
+0031.057 (0) finding files: 2023: adding to list (10)
+0031.059 (0) finding files: woocommerce-placeholder-updraft-pre-smush-original.png: adding to list (11)
+0031.064 (0) finding files: wpo-plugins-tables-list.json: adding to list (12)
+0031.066 (0) finding files: woocommerce-placeholder-300x300.png.webp: adding to list (13)
+0031.067 (0) finding files: wc-logs: adding to list (14)
+0031.069 (0) finding files: backup: skipping: excluded by options (glob)
+0031.071 (0) finding files: betterlinks_uploads: adding to list (15)
+0031.073 (0) finding files: woocommerce-placeholder-150x150.png.webp: adding to list (16)
+0031.074 (0) finding files: essential-addons-elementor: adding to list (17)
+0031.076 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (18)
+0031.077 (0) finding files: woocommerce-placeholder.png: adding to list (19)
+0031.079 (0) finding files: wp-migrate-db: adding to list (20)
+0031.081 (0) finding files: maxmegamenu: adding to list (21)
+0031.083 (0) finding files: wpo: adding to list (22)
+0031.084 (0) finding files: ao_ccss: adding to list (23)
+0031.086 (0) finding files: woocommerce-placeholder.png.webp: adding to list (24)
+0031.087 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (25)
+0031.089 (0) finding files: 2024: adding to list (26)
+0031.090 (0) finding files: wpcode: adding to list (27)
+0031.092 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0031.118 (0) Total entities for the zip file: 36 directories, 2582 files (0 skipped as non-modified), 163.1 MB
+0031.122 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0031.125 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 59.3 MB added on this batch (64.1 MB, 2582 files batched, 141 (141) added so far); re-opening (prior size: 0 KB)
+0035.410 (0) A useful amount of data was added after this amount of zip processing: 4.4 s (normalised: 4 s, rate: 15072.1 KB/s)
+0035.414 (0) Performance is good - will increase the amount of data we attempt to batch (time=4.3521790504456, normalised_time=4.0318422917298, max_time=35.41166305542, data points known=1, old_max_bytes=62226906, new_max_bytes=209715200)
+0035.421 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 200 files added (on-disk size: 61257 KB)
+0035.425 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 300 files added (on-disk size: 61257 KB)
+0035.429 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 400 files added (on-disk size: 61257 KB)
+0035.433 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 500 files added (on-disk size: 61257 KB)
+0035.438 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 600 files added (on-disk size: 61257 KB)
+0035.442 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 700 files added (on-disk size: 61257 KB)
+0035.446 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 800 files added (on-disk size: 61257 KB)
+0035.451 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 900 files added (on-disk size: 61257 KB)
+0035.455 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1000 files added (on-disk size: 61257 KB)
+0035.459 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1100 files added (on-disk size: 61257 KB)
+0035.462 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (32.4 MB, 2582 files batched, 1001 (1142) added so far); re-opening (prior size: 61257 KB)
+0036.039 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1200 files added (on-disk size: 94354.8 KB)
+0036.044 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1300 files added (on-disk size: 94354.8 KB)
+0036.047 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1400 files added (on-disk size: 94354.8 KB)
+0036.052 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1500 files added (on-disk size: 94354.8 KB)
+0036.056 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1600 files added (on-disk size: 94354.8 KB)
+0036.060 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1700 files added (on-disk size: 94354.8 KB)
+0036.064 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1800 files added (on-disk size: 94354.8 KB)
+0036.068 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 1900 files added (on-disk size: 94354.8 KB)
+0036.075 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 2000 files added (on-disk size: 94354.8 KB)
+0036.078 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 2100 files added (on-disk size: 94354.8 KB)
+0036.081 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (44.1 MB, 2582 files batched, 1001 (2143) added so far); re-opening (prior size: 94354.8 KB)
+0036.815 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 2200 files added (on-disk size: 137922.8 KB)
+0036.819 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 2300 files added (on-disk size: 137922.8 KB)
+0036.823 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 2400 files added (on-disk size: 137922.8 KB)
+0036.828 (0) Zip: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.tmp: 2500 files added (on-disk size: 137922.8 KB)
+0037.806 (0) Creating zip file manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.list-temp.tmp)
+0037.812 (0) Successfully created zip file manifest (size: 151067)
+0039.169 (0) Created uploads zip (0) - 161099 KB in 8.1 s (19957 KB/s) (sha1: 4a919eb4aa2ebe64af3e9e500461a8fb01ca6738, sha256: 2b671591511023c14253616fec8abb92f1fc4d8ce516fab6e372c7880278eb82)
+0039.177 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0039.179 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9126192af28d30d943a7aae9dd6dfcf6)
+0039.416 (0) Google Drive: quota usage: used=224.7 MB, total=15360 MB, available=15135.3 MB
+0039.418 (0) Google Drive: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip: Attempting to upload to Google Drive (into folder id: 1rPWwRJtQpSGBJFaZQiMrwVvCcu7tCZTB)
+0040.073 (0) Googledrive chunked upload: 0.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.6 / 22)
+0040.280 (0) Googledrive chunked upload: 1.9 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 15.6 / 22)
+0040.736 (0) Googledrive chunked upload: 4.4 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 15.6 / 22)
+0041.154 (0) Googledrive chunked upload: 9.5 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 15.6 / 22)
+0041.686 (0) Googledrive chunked upload: 19.7 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 15.6 / 22)
+0042.133 (0) Googledrive chunked upload: 40 % uploaded (66060288 - increasing chunk size to 65536 KB - memory usage: 15.6 / 22)
+0042.916 (0) Googledrive chunked upload: 80.7 % uploaded (133169152)
+0045.191 (0) Googledrive chunked upload: 100 % uploaded (133169152)
+0045.197 (0) Google Drive: OK: Archive backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip uploaded in 5.78 seconds
+0045.199 (0) Recording as successfully uploaded: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip
+0045.226 (0) Deleting local file: backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip: OK
+0045.234 (0) Beginning creation of dump of mu-plugins (split every: 400 MB)
+0045.239 (0) Total entities for the zip file: 1 directories, 1 files (0 skipped as non-modified), 0 MB
+0045.245 (0) Creating zip file manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip.list-temp.tmp)
+0045.246 (0) Successfully created zip file manifest (size: 83)
+0045.255 (0) Created mu-plugins zip (0) - 0.8 KB in 0 s (48.7 KB/s) (sha1: 4b5b8878392b427c4802a6bc909b0a6900bbd54f, sha256: 228e64c3f1d0801dd5f72a437c98ae8795ad138ed9d1e8a4ceea73b6339cc735)
+0045.261 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0045.263 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9126192af28d30d943a7aae9dd6dfcf6)
+0045.586 (0) Google Drive: quota usage: used=382 MB, total=15360 MB, available=14978 MB
+0045.589 (0) Google Drive: backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip: Attempting to upload to Google Drive (into folder id: 1rPWwRJtQpSGBJFaZQiMrwVvCcu7tCZTB)
+0047.448 (0) Googledrive chunked upload: 100 % uploaded
+0047.457 (0) Google Drive: OK: Archive backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip uploaded in 1.87 seconds
+0047.460 (0) Recording as successfully uploaded: backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip
+0047.464 (0) Deleting local file: backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip: OK
+0047.471 (0) Beginning backup of other directories found in the content directory (index: 0)
+0047.473 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0047.474 (0) Looking for candidates to backup in: /var/www/html/wp-content
+0047.475 (0) finding files: wpo-cache: adding to list (1)
+0047.477 (0) finding files: litespeed: adding to list (2)
+0047.478 (0) finding files: index.php: adding to list (3)
+0047.480 (0) finding files: cache: skipping: excluded by options
+0047.482 (0) finding files: mu-plugins: skipping: this is the mu-plugins directory
+0047.484 (0) finding files: uploads: skipping: this is the uploads directory
+0047.486 (0) finding files: themes: skipping: this is the themes directory
+0047.488 (0) finding files: plugins: skipping: this is the plugins directory
+0047.489 (0) finding files: advanced-cache.php: adding to list (4)
+0047.490 (0) finding files: updraft: skipping: this is the updraft directory
+0047.492 (0) finding files: upgrade: skipping: excluded by options
+0047.498 (0) Total entities for the zip file: 16 directories, 55 files (0 skipped as non-modified), 46.7 MB
+0050.026 (0) Creating zip file manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip.list-temp.tmp)
+0050.028 (0) Successfully created zip file manifest (size: 3529)
+0050.129 (0) Created others zip (0) - 9848 KB in 2.6 s (3749.9 KB/s) (sha1: 48b876df31569adeb27b67288956352cd21d3159, sha256: e0d53ea60728aa0598f994095435bb73598f19770e106adbb83f1e01988f9511)
+0050.136 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0050.138 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9126192af28d30d943a7aae9dd6dfcf6)
+0050.390 (0) Google Drive: quota usage: used=382 MB, total=15360 MB, available=14978 MB
+0050.393 (0) Google Drive: backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip: Attempting to upload to Google Drive (into folder id: 1rPWwRJtQpSGBJFaZQiMrwVvCcu7tCZTB)
+0051.166 (0) Googledrive chunked upload: 10.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 15.3 / 22)
+0051.372 (0) Googledrive chunked upload: 31.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 15.3 / 22)
+0051.593 (0) Googledrive chunked upload: 72.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 15.3 / 22)
+0053.378 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0053.385 (0) Google Drive: OK: Archive backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip uploaded in 2.99 seconds
+0053.387 (0) Recording as successfully uploaded: backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip
+0053.392 (0) Deleting local file: backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip: OK
+0053.404 (0) Saving backup status to database (elements: 10)
+0053.409 (0) Beginning creation of database dump (WordPress DB)
+0053.411 (0) SQL compatibility mode is: NO_ENGINE_SUBSTITUTION
+0053.434 (0) Table fm_options: Total expected rows (approximate): 1127
+0053.483 (0) Table fm_options: Rows added in this batch (next record: 31932): 1170 (uncompressed bytes in this segment=1837004) in 0.06 seconds
+0053.493 (0) Table fm_options: finishing file(s) (2, 192.6 KB)
+0053.531 (0) Table fm_site: Total expected rows (via COUNT): 1
+0053.533 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.539 (0) Table fm_site: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=673) in 0.04 seconds
+0053.545 (0) Table fm_site: finishing file(s) (2, 0.4 KB)
+0053.571 (0) Table fm_blogs: Total expected rows (via COUNT): 1
+0053.573 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.577 (0) Table fm_blogs: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1199) in 0.03 seconds
+0053.584 (0) Table fm_blogs: finishing file(s) (2, 0.5 KB)
+0053.611 (0) Table fm_users: Total expected rows (via COUNT): 1
+0053.612 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.615 (0) Table fm_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1611) in 0.02 seconds
+0053.627 (0) Table fm_users: finishing file(s) (2, 0.6 KB)
+0053.664 (0) Table fm_usermeta: Total expected rows (via COUNT): 108
+0053.666 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.673 (0) Table fm_usermeta: Rows added in this batch (next record: 526): 108 (uncompressed bytes in this segment=11823) in 0.03 seconds
+0053.686 (0) Table fm_usermeta: finishing file(s) (2, 4.5 KB)
+0053.714 (0) Table fm_actionscheduler_actions: Total expected rows (via COUNT): 723
+0053.732 (0) Table fm_actionscheduler_actions: Rows added in this batch (next record: 2531): 723 (uncompressed bytes in this segment=458857) in 0.04 seconds
+0053.743 (0) Table fm_actionscheduler_actions: finishing file(s) (2, 27.9 KB)
+0053.751 (0) Table fm_actionscheduler_claims: Total expected rows (via COUNT): 0
+0053.753 (0) Table fm_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=621) in 0.00 seconds
+0053.760 (0) Table fm_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0053.787 (0) Table fm_actionscheduler_groups: Total expected rows (via COUNT): 6
+0053.789 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.794 (0) Table fm_actionscheduler_groups: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=850) in 0.03 seconds
+0053.802 (0) Table fm_actionscheduler_groups: finishing file(s) (2, 0.5 KB)
+0053.812 (0) Table fm_actionscheduler_logs: Total expected rows (approximate): 2163
+0053.830 (0) Table fm_actionscheduler_logs: Rows added in this batch (next record: 7563): 2163 (uncompressed bytes in this segment=272464) in 0.02 seconds
+0053.838 (0) Table fm_actionscheduler_logs: finishing file(s) (2, 19.6 KB)
+0053.865 (0) Table fm_blogmeta: Total expected rows (via COUNT): 3
+0053.867 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0053.872 (0) Table fm_blogmeta: Rows added in this batch (next record: 3): 3 (uncompressed bytes in this segment=856) in 0.03 seconds
+0053.884 (0) Table fm_blogmeta: finishing file(s) (2, 0.5 KB)
+0053.902 (0) Table fm_commentmeta: Total expected rows (via COUNT): 0
+0053.908 (0) Table fm_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=721) in 0.02 seconds
+0053.919 (0) Table fm_commentmeta: finishing file(s) (2, 0.4 KB)
+0053.929 (0) Table fm_comments: Total expected rows (via COUNT): 0
+0053.933 (0) Table fm_comments: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1908) in 0.01 seconds
+0053.940 (0) Table fm_comments: finishing file(s) (2, 0.5 KB)
+0053.950 (0) Table fm_links: Total expected rows (via COUNT): 0
+0053.952 (0) Table fm_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1496) in 0.01 seconds
+0053.959 (0) Table fm_links: finishing file(s) (2, 0.5 KB)
+0053.987 (0) Table fm_postmeta: Total expected rows (approximate): 18261
+0054.566 (0) Table fm_postmeta: Rows added in this batch (next record: 247280): 19561 (uncompressed bytes in this segment=25462721) in 0.60 seconds
+0054.576 (0) Table fm_postmeta: finishing file(s) (2, 2381.7 KB)
+0054.604 (0) Table fm_posts: Total expected rows (via COUNT): 1009
+0054.748 (0) Table fm_posts: Rows added in this batch (next record: 16888): 1009 (uncompressed bytes in this segment=8393697) in 0.17 seconds
+0054.756 (0) Table fm_posts: finishing file(s) (2, 636.4 KB)
+0054.763 (0) Table fm_registration_log: Total expected rows (via COUNT): 0
+0054.766 (0) Table fm_registration_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=756) in 0.01 seconds
+0054.773 (0) Table fm_registration_log: finishing file(s) (2, 0.4 KB)
+0054.802 (0) Table fm_signups: Total expected rows (via COUNT): 2
+0054.804 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.810 (0) Table fm_signups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1843) in 0.03 seconds
+0054.819 (0) Table fm_signups: finishing file(s) (2, 0.7 KB)
+0054.846 (0) Table fm_sitemeta: Total expected rows (via COUNT): 234
+0054.847 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.860 (0) Table fm_sitemeta: Rows added in this batch (next record: 4179): 232 (uncompressed bytes in this segment=328763) in 0.04 seconds
+0054.870 (0) Table fm_sitemeta: finishing file(s) (2, 32.9 KB)
+0054.877 (0) Table fm_term_relationships: Total expected rows (approximate): 471
+0054.882 (0) Table fm_term_relationships: Rows added in this batch (next record: 100000): 471 (uncompressed bytes in this segment=8393) in 0.01 seconds
+0054.889 (0) Table fm_term_relationships: finishing file(s) (2, 1.8 KB)
+0054.925 (0) Table fm_term_taxonomy: Total expected rows (via COUNT): 70
+0054.928 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.937 (0) Table fm_term_taxonomy: Rows added in this batch (next record: 72): 70 (uncompressed bytes in this segment=4182) in 0.04 seconds
+0054.945 (0) Table fm_term_taxonomy: finishing file(s) (2, 1.3 KB)
+0054.970 (0) Table fm_termmeta: Total expected rows (via COUNT): 33
+0054.971 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0054.977 (0) Table fm_termmeta: Rows added in this batch (next record: 33): 33 (uncompressed bytes in this segment=1892) in 0.03 seconds
+0054.987 (0) Table fm_termmeta: finishing file(s) (2, 0.7 KB)
+0055.011 (0) Table fm_terms: Total expected rows (via COUNT): 70
+0055.013 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.019 (0) Table fm_terms: Rows added in this batch (next record: 72): 70 (uncompressed bytes in this segment=3223) in 0.03 seconds
+0055.025 (0) Table fm_terms: finishing file(s) (2, 1.2 KB)
+0055.042 (0) Table fm_wc_category_lookup: Total expected rows (approximate): 8
+0055.051 (0) Table fm_wc_category_lookup: Rows added in this batch (next record: 1000): 8 (uncompressed bytes in this segment=658) in 0.02 seconds
+0055.085 (0) Table fm_wc_category_lookup: finishing file(s) (2, 0.4 KB)
+0055.111 (0) Table fm_wc_product_meta_lookup: Total expected rows (via COUNT): 64
+0055.113 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.118 (0) Table fm_wc_product_meta_lookup: Rows added in this batch (next record: 16729): 64 (uncompressed bytes in this segment=7364) in 0.03 seconds
+0055.125 (0) Table fm_wc_product_meta_lookup: finishing file(s) (2, 1.1 KB)
+0055.133 (0) Table fm_wc_reserved_stock: Total expected rows (approximate): 0
+0055.144 (0) Table fm_wc_reserved_stock: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=657) in 0.01 seconds
+0055.155 (0) Table fm_wc_reserved_stock: finishing file(s) (2, 0.4 KB)
+0055.179 (0) Table fm_wc_tax_rate_classes: Total expected rows (via COUNT): 2
+0055.181 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.186 (0) Table fm_wc_tax_rate_classes: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=852) in 0.02 seconds
+0055.192 (0) Table fm_wc_tax_rate_classes: finishing file(s) (2, 0.4 KB)
+0055.206 (0) Table fm_woocommerce_order_itemmeta: Total expected rows (via COUNT): 0
+0055.211 (0) Table fm_woocommerce_order_itemmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=807) in 0.01 seconds
+0055.219 (0) Table fm_woocommerce_order_itemmeta: finishing file(s) (2, 0.4 KB)
+0055.230 (0) Table fm_woocommerce_payment_tokenmeta: Total expected rows (via COUNT): 0
+0055.232 (0) Table fm_woocommerce_payment_tokenmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=834) in 0.01 seconds
+0055.241 (0) Table fm_woocommerce_payment_tokenmeta: finishing file(s) (2, 0.4 KB)
+0055.256 (0) Table fm_betterlinkmeta: Total expected rows (via COUNT): 0
+0055.258 (0) Table fm_betterlinkmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=741) in 0.01 seconds
+0055.267 (0) Table fm_betterlinkmeta: finishing file(s) (2, 0.4 KB)
+0055.316 (0) Table fm_betterlinks: Total expected rows (via COUNT): 1
+0055.319 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.325 (0) Table fm_betterlinks: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2786) in 0.05 seconds
+0055.332 (0) Table fm_betterlinks: finishing file(s) (2, 0.8 KB)
+0055.341 (0) Table fm_betterlinks_clicks: Total expected rows (via COUNT): 0
+0055.346 (0) Table fm_betterlinks_clicks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=2297) in 0.01 seconds
+0055.354 (0) Table fm_betterlinks_clicks: finishing file(s) (2, 0.6 KB)
+0055.362 (0) Table fm_betterlinks_password: Total expected rows (via COUNT): 0
+0055.364 (0) Table fm_betterlinks_password: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=820) in 0.01 seconds
+0055.372 (0) Table fm_betterlinks_password: finishing file(s) (2, 0.4 KB)
+0055.395 (0) Table fm_betterlinks_terms: Total expected rows (via COUNT): 2
+0055.398 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.405 (0) Table fm_betterlinks_terms: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1025) in 0.03 seconds
+0055.411 (0) Table fm_betterlinks_terms: finishing file(s) (2, 0.5 KB)
+0055.435 (0) Table fm_betterlinks_terms_relationships: Total expected rows (via COUNT): 1
+0055.436 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.439 (0) Table fm_betterlinks_terms_relationships: Rows added in this batch (next record: 8): 1 (uncompressed bytes in this segment=743) in 0.02 seconds
+0055.451 (0) Table fm_betterlinks_terms_relationships: finishing file(s) (2, 0.4 KB)
+0055.488 (0) Table fm_cky_banners: Total expected rows (via COUNT): 2
+0055.490 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.500 (0) Table fm_cky_banners: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=20303) in 0.04 seconds
+0055.512 (0) Table fm_cky_banners: finishing file(s) (2, 2.9 KB)
+0055.547 (0) Table fm_cky_cookie_categories: Total expected rows (via COUNT): 5
+0055.548 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.551 (0) Table fm_cky_cookie_categories: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=2786) in 0.03 seconds
+0055.561 (0) Table fm_cky_cookie_categories: finishing file(s) (2, 1.1 KB)
+0055.582 (0) Table fm_cky_cookies: Total expected rows (via COUNT): 0
+0055.587 (0) Table fm_cky_cookies: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1327) in 0.02 seconds
+0055.594 (0) Table fm_cky_cookies: finishing file(s) (2, 0.5 KB)
+0055.602 (0) Table fm_e_events: Total expected rows (via COUNT): 0
+0055.604 (0) Table fm_e_events: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=547) in 0.00 seconds
+0055.610 (0) Table fm_e_events: finishing file(s) (2, 0.4 KB)
+0055.635 (0) Table fm_e_submissions: Total expected rows (via COUNT): 2
+0055.637 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.642 (0) Table fm_e_submissions: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=3388) in 0.03 seconds
+0055.649 (0) Table fm_e_submissions: finishing file(s) (2, 1.1 KB)
+0055.680 (0) Table fm_e_submissions_actions_log: Total expected rows (via COUNT): 2
+0055.683 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.688 (0) Table fm_e_submissions_actions_log: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1762) in 0.03 seconds
+0055.695 (0) Table fm_e_submissions_actions_log: finishing file(s) (2, 0.6 KB)
+0055.726 (0) Table fm_e_submissions_values: Total expected rows (via COUNT): 6
+0055.729 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.732 (0) Table fm_e_submissions_values: Rows added in this batch (next record: 6): 6 (uncompressed bytes in this segment=1015) in 0.03 seconds
+0055.742 (0) Table fm_e_submissions_values: finishing file(s) (2, 0.5 KB)
+0055.789 (0) Table fm_litespeed_avatar: Total expected rows (via COUNT): 9
+0055.791 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.794 (0) Table fm_litespeed_avatar: Rows added in this batch (next record: 9): 9 (uncompressed bytes in this segment=2041) in 0.03 seconds
+0055.803 (0) Table fm_litespeed_avatar: finishing file(s) (2, 0.8 KB)
+0055.811 (0) Table fm_litespeed_crawler: Total expected rows (via COUNT): 0
+0055.816 (0) Table fm_litespeed_crawler: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=878) in 0.01 seconds
+0055.823 (0) Table fm_litespeed_crawler: finishing file(s) (2, 0.5 KB)
+0055.832 (0) Table fm_litespeed_crawler_blacklist: Total expected rows (via COUNT): 0
+0055.834 (0) Table fm_litespeed_crawler_blacklist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=934) in 0.01 seconds
+0055.841 (0) Table fm_litespeed_crawler_blacklist: finishing file(s) (2, 0.5 KB)
+0055.875 (0) Table fm_litespeed_img_optming: Total expected rows (via COUNT): 303
+0055.877 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.884 (0) Table fm_litespeed_img_optming: Rows added in this batch (next record: 1139): 303 (uncompressed bytes in this segment=18782) in 0.04 seconds
+0055.892 (0) Table fm_litespeed_img_optming: finishing file(s) (2, 2.8 KB)
+0055.915 (0) Table fm_litespeed_url: Total expected rows (via COUNT): 86
+0055.918 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.932 (0) Table fm_litespeed_url: Rows added in this batch (next record: 86): 86 (uncompressed bytes in this segment=6100) in 0.04 seconds
+0055.942 (0) Table fm_litespeed_url: finishing file(s) (2, 1.5 KB)
+0055.972 (0) Table fm_litespeed_url_file: Total expected rows (via COUNT): 40
+0055.975 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0055.980 (0) Table fm_litespeed_url_file: Rows added in this batch (next record: 76246): 40 (uncompressed bytes in this segment=3864) in 0.03 seconds
+0055.987 (0) Table fm_litespeed_url_file: finishing file(s) (2, 1.6 KB)
+0056.018 (0) Table fm_ms_snippets: Total expected rows (via COUNT): 4
+0056.020 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.025 (0) Table fm_ms_snippets: Rows added in this batch (next record: 4): 4 (uncompressed bytes in this segment=2576) in 0.03 seconds
+0056.036 (0) Table fm_ms_snippets: finishing file(s) (2, 1 KB)
+0056.047 (0) Table fm_pp_activity_logs: Total expected rows (via COUNT): 0
+0056.052 (0) Table fm_pp_activity_logs: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.01 seconds
+0056.059 (0) Table fm_pp_activity_logs: finishing file(s) (2, 0.4 KB)
+0056.086 (0) Table fm_snippets: Total expected rows (via COUNT): 2
+0056.088 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.093 (0) Table fm_snippets: Rows added in this batch (next record: 4): 2 (uncompressed bytes in this segment=2123) in 0.03 seconds
+0056.105 (0) Table fm_snippets: finishing file(s) (2, 0.9 KB)
+0056.118 (0) Table fm_tm_taskmeta: Total expected rows (via COUNT): 0
+0056.123 (0) Table fm_tm_taskmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=713) in 0.01 seconds
+0056.133 (0) Table fm_tm_taskmeta: finishing file(s) (2, 0.4 KB)
+0056.143 (0) Table fm_tm_tasks: Total expected rows (via COUNT): 0
+0056.147 (0) Table fm_tm_tasks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=967) in 0.01 seconds
+0056.160 (0) Table fm_tm_tasks: finishing file(s) (2, 0.5 KB)
+0056.192 (0) Table fm_wc_admin_note_actions: Total expected rows (via COUNT): 120
+0056.194 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.202 (0) Table fm_wc_admin_note_actions: Rows added in this batch (next record: 20607): 120 (uncompressed bytes in this segment=23554) in 0.03 seconds
+0056.212 (0) Table fm_wc_admin_note_actions: finishing file(s) (2, 3.8 KB)
+0056.238 (0) Table fm_wc_admin_notes: Total expected rows (via COUNT): 86
+0056.239 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.252 (0) Table fm_wc_admin_notes: Rows added in this batch (next record: 88): 86 (uncompressed bytes in this segment=41232) in 0.03 seconds
+0056.264 (0) Table fm_wc_admin_notes: finishing file(s) (2, 8.6 KB)
+0056.277 (0) Table fm_wc_customer_lookup: Total expected rows (via COUNT): 0
+0056.281 (0) Table fm_wc_customer_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1434) in 0.01 seconds
+0056.293 (0) Table fm_wc_customer_lookup: finishing file(s) (2, 0.5 KB)
+0056.303 (0) Table fm_wc_download_log: Total expected rows (via COUNT): 0
+0056.310 (0) Table fm_wc_download_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=757) in 0.01 seconds
+0056.318 (0) Table fm_wc_download_log: finishing file(s) (2, 0.4 KB)
+0056.326 (0) Table fm_wc_order_addresses: Total expected rows (via COUNT): 0
+0056.329 (0) Table fm_wc_order_addresses: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1569) in 0.01 seconds
+0056.337 (0) Table fm_wc_order_addresses: finishing file(s) (2, 0.5 KB)
+0056.344 (0) Table fm_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0056.347 (0) Table fm_wc_order_coupon_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=709) in 0.00 seconds
+0056.354 (0) Table fm_wc_order_coupon_lookup: finishing file(s) (2, 0.4 KB)
+0056.363 (0) Table fm_wc_order_operational_data: Total expected rows (via COUNT): 0
+0056.366 (0) Table fm_wc_order_operational_data: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1603) in 0.01 seconds
+0056.373 (0) Table fm_wc_order_operational_data: finishing file(s) (2, 0.6 KB)
+0056.383 (0) Table fm_wc_order_product_lookup: Total expected rows (via COUNT): 0
+0056.390 (0) Table fm_wc_order_product_lookup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1203) in 0.01 seconds
+0056.398 (0) Table fm_wc_order_product_lookup: finishing file(s) (2, 0.5 KB)
+0056.409 (0) Table fm_wc_order_stats: Total expected rows (via COUNT): 0
+0056.412 (0) Table fm_wc_order_stats: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1241) in 0.01 seconds
+0056.419 (0) Table fm_wc_order_stats: finishing file(s) (2, 0.5 KB)
+0056.428 (0) Table fm_wc_order_tax_lookup: Total expected rows (approximate): 0
+0056.430 (0) Table fm_wc_order_tax_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=791) in 0.00 seconds
+0056.437 (0) Table fm_wc_order_tax_lookup: finishing file(s) (2, 0.4 KB)
+0056.446 (0) Table fm_wc_orders: Total expected rows (via COUNT): 0
+0056.448 (0) Table fm_wc_orders: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1896) in 0.01 seconds
+0056.455 (0) Table fm_wc_orders: finishing file(s) (2, 0.6 KB)
+0056.465 (0) Table fm_wc_orders_meta: Total expected rows (via COUNT): 0
+0056.469 (0) Table fm_wc_orders_meta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=787) in 0.01 seconds
+0056.477 (0) Table fm_wc_orders_meta: finishing file(s) (2, 0.4 KB)
+0056.486 (0) Table fm_wc_product_attributes_lookup: Total expected rows (approximate): 0
+0056.491 (0) Table fm_wc_product_attributes_lookup: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=872) in 0.01 seconds
+0056.498 (0) Table fm_wc_product_attributes_lookup: finishing file(s) (2, 0.4 KB)
+0056.523 (0) Table fm_wc_product_download_directories: Total expected rows (via COUNT): 2
+0056.525 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.531 (0) Table fm_wc_product_download_directories: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=922) in 0.03 seconds
+0056.537 (0) Table fm_wc_product_download_directories: finishing file(s) (2, 0.5 KB)
+0056.548 (0) Table fm_wc_rate_limits: Total expected rows (via COUNT): 0
+0056.553 (0) Table fm_wc_rate_limits: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=710) in 0.01 seconds
+0056.560 (0) Table fm_wc_rate_limits: finishing file(s) (2, 0.4 KB)
+0056.572 (0) Table fm_wc_webhooks: Total expected rows (via COUNT): 0
+0056.575 (0) Table fm_wc_webhooks: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1342) in 0.01 seconds
+0056.582 (0) Table fm_wc_webhooks: finishing file(s) (2, 0.5 KB)
+0056.605 (0) Table fm_woocommerce_api_keys: Total expected rows (via COUNT): 1
+0056.608 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.623 (0) Table fm_woocommerce_api_keys: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1449) in 0.03 seconds
+0056.653 (0) Table fm_woocommerce_api_keys: finishing file(s) (2, 0.6 KB)
+0056.699 (0) Table fm_woocommerce_attribute_taxonomies: Total expected rows (via COUNT): 1
+0056.706 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.709 (0) Table fm_woocommerce_attribute_taxonomies: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1166) in 0.03 seconds
+0056.717 (0) Table fm_woocommerce_attribute_taxonomies: finishing file(s) (2, 0.5 KB)
+0056.727 (0) Table fm_woocommerce_downloadable_product_permissions: Total expected rows (via COUNT): 0
+0056.732 (0) Table fm_woocommerce_downloadable_product_permissions: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1606) in 0.01 seconds
+0056.739 (0) Table fm_woocommerce_downloadable_product_permissions: finishing file(s) (2, 0.5 KB)
+0056.754 (0) Table fm_woocommerce_log: Total expected rows (via COUNT): 0
+0056.757 (0) Table fm_woocommerce_log: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=781) in 0.01 seconds
+0056.768 (0) Table fm_woocommerce_log: finishing file(s) (2, 0.4 KB)
+0056.785 (0) Table fm_woocommerce_order_items: Total expected rows (via COUNT): 0
+0056.791 (0) Table fm_woocommerce_order_items: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=775) in 0.02 seconds
+0056.804 (0) Table fm_woocommerce_order_items: finishing file(s) (2, 0.4 KB)
+0056.822 (0) Table fm_woocommerce_payment_tokens: Total expected rows (via COUNT): 0
+0056.825 (0) Table fm_woocommerce_payment_tokens: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=899) in 0.01 seconds
+0056.832 (0) Table fm_woocommerce_payment_tokens: finishing file(s) (2, 0.4 KB)
+0056.875 (0) Table fm_woocommerce_sessions: Total expected rows (via COUNT): 1
+0056.877 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0056.891 (0) Table fm_woocommerce_sessions: Rows added in this batch (next record: 1746): 1 (uncompressed bytes in this segment=2223) in 0.05 seconds
+0056.911 (0) Table fm_woocommerce_sessions: finishing file(s) (2, 0.9 KB)
+0056.920 (0) Table fm_woocommerce_shipping_zone_locations: Total expected rows (via COUNT): 0
+0056.926 (0) Table fm_woocommerce_shipping_zone_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=910) in 0.01 seconds
+0056.934 (0) Table fm_woocommerce_shipping_zone_locations: finishing file(s) (2, 0.4 KB)
+0056.951 (0) Table fm_woocommerce_shipping_zone_methods: Total expected rows (via COUNT): 0
+0056.953 (0) Table fm_woocommerce_shipping_zone_methods: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=785) in 0.01 seconds
+0056.962 (0) Table fm_woocommerce_shipping_zone_methods: finishing file(s) (2, 0.4 KB)
+0056.974 (0) Table fm_woocommerce_shipping_zones: Total expected rows (via COUNT): 0
+0056.986 (0) Table fm_woocommerce_shipping_zones: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=647) in 0.01 seconds
+0057.003 (0) Table fm_woocommerce_shipping_zones: finishing file(s) (2, 0.4 KB)
+0057.026 (0) Table fm_woocommerce_tax_rate_locations: Total expected rows (via COUNT): 0
+0057.033 (0) Table fm_woocommerce_tax_rate_locations: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=884) in 0.01 seconds
+0057.040 (0) Table fm_woocommerce_tax_rate_locations: finishing file(s) (2, 0.4 KB)
+0057.051 (0) Table fm_woocommerce_tax_rates: Total expected rows (via COUNT): 0
+0057.053 (0) Table fm_woocommerce_tax_rates: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1393) in 0.01 seconds
+0057.066 (0) Table fm_woocommerce_tax_rates: finishing file(s) (2, 0.5 KB)
+0057.075 (0) Table fm_wpfm_backup: Total expected rows (via COUNT): 0
+0057.078 (0) Table fm_wpfm_backup: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=554) in 0.01 seconds
+0057.086 (0) Table fm_wpfm_backup: finishing file(s) (2, 0.3 KB)
+0057.125 (0) Table fm_yoast_indexable: Total expected rows (via COUNT): 89
+0057.127 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.140 (0) Table fm_yoast_indexable: Rows added in this batch (next record: 93): 89 (uncompressed bytes in this segment=58692) in 0.05 seconds
+0057.150 (0) Table fm_yoast_indexable: finishing file(s) (2, 9.5 KB)
+0057.158 (0) Table fm_yoast_indexable_hierarchy: Total expected rows (approximate): 87
+0057.165 (0) Table fm_yoast_indexable_hierarchy: Rows added in this batch (next record: 1000): 87 (uncompressed bytes in this segment=2169) in 0.01 seconds
+0057.171 (0) Table fm_yoast_indexable_hierarchy: finishing file(s) (2, 0.6 KB)
+0057.199 (0) Table fm_yoast_migrations: Total expected rows (via COUNT): 24
+0057.201 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.207 (0) Table fm_yoast_migrations: Rows added in this batch (next record: 24): 24 (uncompressed bytes in this segment=1283) in 0.03 seconds
+0057.213 (0) Table fm_yoast_migrations: finishing file(s) (2, 0.6 KB)
+0057.267 (0) Table fm_yoast_primary_term: Total expected rows (via COUNT): 5
+0057.279 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.282 (0) Table fm_yoast_primary_term: Rows added in this batch (next record: 5): 5 (uncompressed bytes in this segment=1320) in 0.04 seconds
+0057.291 (0) Table fm_yoast_primary_term: finishing file(s) (2, 0.6 KB)
+0057.315 (0) Table fm_yoast_seo_links: Total expected rows (via COUNT): 287
+0057.317 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0057.326 (0) Table fm_yoast_seo_links: Rows added in this batch (next record: 1508): 287 (uncompressed bytes in this segment=39043) in 0.03 seconds
+0057.333 (0) Table fm_yoast_seo_links: finishing file(s) (2, 5.7 KB)
+0057.335 (0) PHP event: code E_WARNING: filemtime(): stat failed for /var/www/html/wp-content/updraft/backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz (line 1925, wp-content/plugins/updraftplus/backup.php)
+0057.341 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_options.table.tmpr31933.gz (1/86/fopen): adding to final database dump
+0057.345 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_options.table.gz (2/86/fopen): adding to final database dump
+0057.347 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_site.table.tmpr2.gz (3/86/fopen): adding to final database dump
+0057.349 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_site.table.gz (4/86/fopen): adding to final database dump
+0057.350 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_blogs.table.tmpr2.gz (5/86/fopen): adding to final database dump
+0057.352 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_blogs.table.gz (6/86/fopen): adding to final database dump
+0057.354 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_users.table.tmpr2.gz (7/86/fopen): adding to final database dump
+0057.355 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_users.table.gz (8/86/fopen): adding to final database dump
+0057.357 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_usermeta.table.tmpr527.gz (9/86/fopen): adding to final database dump
+0057.358 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_usermeta.table.gz (10/86/fopen): adding to final database dump
+0057.360 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_actions.table.tmpr2532.gz (11/86/fopen): adding to final database dump
+0057.363 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_actions.table.gz (12/86/fopen): adding to final database dump
+0057.364 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_claims.table.tmpr0.gz (13/86/fopen): adding to final database dump
+0057.366 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_claims.table.gz (14/86/fopen): adding to final database dump
+0057.368 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_groups.table.tmpr7.gz (15/86/fopen): adding to final database dump
+0057.370 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_groups.table.gz (16/86/fopen): adding to final database dump
+0057.371 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_logs.table.tmpr7564.gz (17/86/fopen): adding to final database dump
+0057.373 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_actionscheduler_logs.table.gz (18/86/fopen): adding to final database dump
+0057.375 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_blogmeta.table.tmpr4.gz (19/86/fopen): adding to final database dump
+0057.376 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_blogmeta.table.gz (20/86/fopen): adding to final database dump
+0057.378 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_commentmeta.table.tmpr0.gz (21/86/fopen): adding to final database dump
+0057.380 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_commentmeta.table.gz (22/86/fopen): adding to final database dump
+0057.382 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_comments.table.tmpr0.gz (23/86/fopen): adding to final database dump
+0057.384 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_comments.table.gz (24/86/fopen): adding to final database dump
+0057.385 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_links.table.tmpr0.gz (25/86/fopen): adding to final database dump
+0057.387 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_links.table.gz (26/86/fopen): adding to final database dump
+0057.389 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_postmeta.table.tmpr247281.gz (27/86/fopen): adding to final database dump
+0057.416 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_postmeta.table.gz (28/86/fopen): adding to final database dump
+0057.419 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_posts.table.tmpr16889.gz (29/86/fopen): adding to final database dump
+0057.428 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_posts.table.gz (30/86/fopen): adding to final database dump
+0057.430 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_registration_log.table.tmpr0.gz (31/86/fopen): adding to final database dump
+0057.432 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_registration_log.table.gz (32/86/fopen): adding to final database dump
+0057.434 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_signups.table.tmpr3.gz (33/86/fopen): adding to final database dump
+0057.435 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_signups.table.gz (34/86/fopen): adding to final database dump
+0057.437 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_sitemeta.table.tmpr4180.gz (35/86/fopen): adding to final database dump
+0057.439 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_sitemeta.table.gz (36/86/fopen): adding to final database dump
+0057.440 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_term_relationships.table.tmpr100001.gz (37/86/fopen): adding to final database dump
+0057.442 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_term_relationships.table.gz (38/86/fopen): adding to final database dump
+0057.444 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_term_taxonomy.table.tmpr73.gz (39/86/fopen): adding to final database dump
+0057.445 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_term_taxonomy.table.gz (40/86/fopen): adding to final database dump
+0057.447 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_termmeta.table.tmpr34.gz (41/86/fopen): adding to final database dump
+0057.449 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_termmeta.table.gz (42/86/fopen): adding to final database dump
+0057.451 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_terms.table.tmpr73.gz (43/86/fopen): adding to final database dump
+0057.453 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_terms.table.gz (44/86/fopen): adding to final database dump
+0057.455 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_category_lookup.table.tmpr1001.gz (45/86/fopen): adding to final database dump
+0057.457 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_category_lookup.table.gz (46/86/fopen): adding to final database dump
+0057.459 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_product_meta_lookup.table.tmpr16730.gz (47/86/fopen): adding to final database dump
+0057.462 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_product_meta_lookup.table.gz (48/86/fopen): adding to final database dump
+0057.463 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_reserved_stock.table.tmpr1.gz (49/86/fopen): adding to final database dump
+0057.465 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_reserved_stock.table.gz (50/86/fopen): adding to final database dump
+0057.468 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_tax_rate_classes.table.tmpr3.gz (51/86/fopen): adding to final database dump
+0057.470 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_tax_rate_classes.table.gz (52/86/fopen): adding to final database dump
+0057.472 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_order_itemmeta.table.tmpr0.gz (53/86/fopen): adding to final database dump
+0057.474 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_order_itemmeta.table.gz (54/86/fopen): adding to final database dump
+0057.476 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_payment_tokenmeta.table.tmpr0.gz (55/86/fopen): adding to final database dump
+0057.478 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_payment_tokenmeta.table.gz (56/86/fopen): adding to final database dump
+0057.479 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinkmeta.table.tmpr0.gz (57/86/fopen): adding to final database dump
+0057.481 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinkmeta.table.gz (58/86/fopen): adding to final database dump
+0057.482 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks.table.tmpr2.gz (59/86/fopen): adding to final database dump
+0057.484 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks.table.gz (60/86/fopen): adding to final database dump
+0057.485 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_clicks.table.tmpr0.gz (61/86/fopen): adding to final database dump
+0057.487 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_clicks.table.gz (62/86/fopen): adding to final database dump
+0057.490 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_password.table.tmpr0.gz (63/86/fopen): adding to final database dump
+0057.492 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_password.table.gz (64/86/fopen): adding to final database dump
+0057.494 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_terms.table.tmpr3.gz (65/86/fopen): adding to final database dump
+0057.496 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_terms.table.gz (66/86/fopen): adding to final database dump
+0057.498 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_terms_relationships.table.tmpr9.gz (67/86/fopen): adding to final database dump
+0057.500 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_betterlinks_terms_relationships.table.gz (68/86/fopen): adding to final database dump
+0057.501 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_cky_banners.table.tmpr3.gz (69/86/fopen): adding to final database dump
+0057.503 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_cky_banners.table.gz (70/86/fopen): adding to final database dump
+0057.505 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_cky_cookie_categories.table.tmpr6.gz (71/86/fopen): adding to final database dump
+0057.506 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_cky_cookie_categories.table.gz (72/86/fopen): adding to final database dump
+0057.510 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_cky_cookies.table.tmpr0.gz (73/86/fopen): adding to final database dump
+0057.513 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_cky_cookies.table.gz (74/86/fopen): adding to final database dump
+0057.515 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_events.table.tmpr0.gz (75/86/fopen): adding to final database dump
+0057.517 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_events.table.gz (76/86/fopen): adding to final database dump
+0057.519 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_submissions.table.tmpr3.gz (77/86/fopen): adding to final database dump
+0057.520 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_submissions.table.gz (78/86/fopen): adding to final database dump
+0057.523 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_submissions_actions_log.table.tmpr3.gz (79/86/fopen): adding to final database dump
+0057.525 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_submissions_actions_log.table.gz (80/86/fopen): adding to final database dump
+0057.527 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_submissions_values.table.tmpr7.gz (81/86/fopen): adding to final database dump
+0057.529 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_e_submissions_values.table.gz (82/86/fopen): adding to final database dump
+0057.537 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_avatar.table.tmpr10.gz (83/86/fopen): adding to final database dump
+0057.540 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_avatar.table.gz (84/86/fopen): adding to final database dump
+0057.545 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_crawler.table.tmpr0.gz (85/86/fopen): adding to final database dump
+0057.547 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_crawler.table.gz (86/86/fopen): adding to final database dump
+0057.549 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_crawler_blacklist.table.tmpr0.gz (87/86/fopen): adding to final database dump
+0057.551 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_crawler_blacklist.table.gz (88/86/fopen): adding to final database dump
+0057.554 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_img_optming.table.tmpr1140.gz (89/86/fopen): adding to final database dump
+0057.559 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_img_optming.table.gz (90/86/fopen): adding to final database dump
+0057.561 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_url.table.tmpr87.gz (91/86/fopen): adding to final database dump
+0057.562 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_url.table.gz (92/86/fopen): adding to final database dump
+0057.564 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_url_file.table.tmpr76247.gz (93/86/fopen): adding to final database dump
+0057.566 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_litespeed_url_file.table.gz (94/86/fopen): adding to final database dump
+0057.568 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_ms_snippets.table.tmpr5.gz (95/86/fopen): adding to final database dump
+0057.570 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_ms_snippets.table.gz (96/86/fopen): adding to final database dump
+0057.571 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_pp_activity_logs.table.tmpr0.gz (97/86/fopen): adding to final database dump
+0057.573 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_pp_activity_logs.table.gz (98/86/fopen): adding to final database dump
+0057.574 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_snippets.table.tmpr5.gz (99/86/fopen): adding to final database dump
+0057.578 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_snippets.table.gz (100/86/fopen): adding to final database dump
+0057.581 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_tm_taskmeta.table.tmpr0.gz (101/86/fopen): adding to final database dump
+0057.582 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_tm_taskmeta.table.gz (102/86/fopen): adding to final database dump
+0057.583 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_tm_tasks.table.tmpr0.gz (103/86/fopen): adding to final database dump
+0057.585 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_tm_tasks.table.gz (104/86/fopen): adding to final database dump
+0057.586 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_admin_note_actions.table.tmpr20608.gz (105/86/fopen): adding to final database dump
+0057.588 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_admin_note_actions.table.gz (106/86/fopen): adding to final database dump
+0057.589 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_admin_notes.table.tmpr89.gz (107/86/fopen): adding to final database dump
+0057.591 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_admin_notes.table.gz (108/86/fopen): adding to final database dump
+0057.593 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_customer_lookup.table.tmpr0.gz (109/86/fopen): adding to final database dump
+0057.595 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_customer_lookup.table.gz (110/86/fopen): adding to final database dump
+0057.596 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_download_log.table.tmpr0.gz (111/86/fopen): adding to final database dump
+0057.599 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_download_log.table.gz (112/86/fopen): adding to final database dump
+0057.600 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_addresses.table.tmpr0.gz (113/86/fopen): adding to final database dump
+0057.602 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_addresses.table.gz (114/86/fopen): adding to final database dump
+0057.603 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_coupon_lookup.table.tmpr1.gz (115/86/fopen): adding to final database dump
+0057.605 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_coupon_lookup.table.gz (116/86/fopen): adding to final database dump
+0057.606 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_operational_data.table.tmpr0.gz (117/86/fopen): adding to final database dump
+0057.607 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_operational_data.table.gz (118/86/fopen): adding to final database dump
+0057.609 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_product_lookup.table.tmpr0.gz (119/86/fopen): adding to final database dump
+0057.610 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_product_lookup.table.gz (120/86/fopen): adding to final database dump
+0057.613 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_stats.table.tmpr0.gz (121/86/fopen): adding to final database dump
+0057.614 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_stats.table.gz (122/86/fopen): adding to final database dump
+0057.615 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_tax_lookup.table.tmpr1.gz (123/86/fopen): adding to final database dump
+0057.617 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_order_tax_lookup.table.gz (124/86/fopen): adding to final database dump
+0057.619 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_orders.table.tmpr0.gz (125/86/fopen): adding to final database dump
+0057.620 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_orders.table.gz (126/86/fopen): adding to final database dump
+0057.622 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_orders_meta.table.tmpr0.gz (127/86/fopen): adding to final database dump
+0057.623 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_orders_meta.table.gz (128/86/fopen): adding to final database dump
+0057.624 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_product_attributes_lookup.table.tmpr1.gz (129/86/fopen): adding to final database dump
+0057.626 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_product_attributes_lookup.table.gz (130/86/fopen): adding to final database dump
+0057.628 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_product_download_directories.table.tmpr3.gz (131/86/fopen): adding to final database dump
+0057.629 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_product_download_directories.table.gz (132/86/fopen): adding to final database dump
+0057.631 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_rate_limits.table.tmpr0.gz (133/86/fopen): adding to final database dump
+0057.632 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_rate_limits.table.gz (134/86/fopen): adding to final database dump
+0057.634 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_webhooks.table.tmpr0.gz (135/86/fopen): adding to final database dump
+0057.635 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wc_webhooks.table.gz (136/86/fopen): adding to final database dump
+0057.637 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_api_keys.table.tmpr2.gz (137/86/fopen): adding to final database dump
+0057.638 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_api_keys.table.gz (138/86/fopen): adding to final database dump
+0057.640 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_attribute_taxonomies.table.tmpr2.gz (139/86/fopen): adding to final database dump
+0057.642 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_attribute_taxonomies.table.gz (140/86/fopen): adding to final database dump
+0057.644 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_downloadable_product_permissions.table.tmpr0.gz (141/86/fopen): adding to final database dump
+0057.645 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_downloadable_product_permissions.table.gz (142/86/fopen): adding to final database dump
+0057.647 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_log.table.tmpr0.gz (143/86/fopen): adding to final database dump
+0057.648 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_log.table.gz (144/86/fopen): adding to final database dump
+0057.650 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_order_items.table.tmpr0.gz (145/86/fopen): adding to final database dump
+0057.651 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_order_items.table.gz (146/86/fopen): adding to final database dump
+0057.653 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_payment_tokens.table.tmpr0.gz (147/86/fopen): adding to final database dump
+0057.655 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_payment_tokens.table.gz (148/86/fopen): adding to final database dump
+0057.656 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_sessions.table.tmpr1747.gz (149/86/fopen): adding to final database dump
+0057.658 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_sessions.table.gz (150/86/fopen): adding to final database dump
+0057.659 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_shipping_zone_locations.table.tmpr0.gz (151/86/fopen): adding to final database dump
+0057.661 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_shipping_zone_locations.table.gz (152/86/fopen): adding to final database dump
+0057.662 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_shipping_zone_methods.table.tmpr0.gz (153/86/fopen): adding to final database dump
+0057.664 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_shipping_zone_methods.table.gz (154/86/fopen): adding to final database dump
+0057.665 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_shipping_zones.table.tmpr0.gz (155/86/fopen): adding to final database dump
+0057.667 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_shipping_zones.table.gz (156/86/fopen): adding to final database dump
+0057.669 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_tax_rate_locations.table.tmpr0.gz (157/86/fopen): adding to final database dump
+0057.671 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_tax_rate_locations.table.gz (158/86/fopen): adding to final database dump
+0057.673 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_tax_rates.table.tmpr0.gz (159/86/fopen): adding to final database dump
+0057.675 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_woocommerce_tax_rates.table.gz (160/86/fopen): adding to final database dump
+0057.677 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wpfm_backup.table.tmpr0.gz (161/86/fopen): adding to final database dump
+0057.680 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_wpfm_backup.table.gz (162/86/fopen): adding to final database dump
+0057.682 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_indexable.table.tmpr94.gz (163/86/fopen): adding to final database dump
+0057.683 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_indexable.table.gz (164/86/fopen): adding to final database dump
+0057.685 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_indexable_hierarchy.table.tmpr1001.gz (165/86/fopen): adding to final database dump
+0057.687 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_indexable_hierarchy.table.gz (166/86/fopen): adding to final database dump
+0057.688 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_migrations.table.tmpr25.gz (167/86/fopen): adding to final database dump
+0057.690 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_migrations.table.gz (168/86/fopen): adding to final database dump
+0057.691 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_primary_term.table.tmpr6.gz (169/86/fopen): adding to final database dump
+0057.694 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_primary_term.table.gz (170/86/fopen): adding to final database dump
+0057.695 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_seo_links.table.tmpr1509.gz (171/86/fopen): adding to final database dump
+0057.697 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db-table-fm_yoast_seo_links.table.gz (172/86/fopen): adding to final database dump
+0057.713 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz: finished writing out complete database file (3370.6 KB)
+0057.763 (0) Total database tables backed up: 86 (backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz, size: 3451571, sha1: cd7ca3fd5049bb47c2e2cbffc90bfb4f92c898dd, sha256: 65d1d32159484e894929a298933a4f83b869e87c97801e56fc4d4297a964e1b3)
+0057.775 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip: plugins: This file has already been successfully uploaded
+0057.777 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip: themes: This file has already been successfully uploaded
+0057.778 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip: uploads: This file has already been successfully uploaded
+0057.780 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip: mu-plugins: This file has already been successfully uploaded
+0057.781 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip: others: This file has already been successfully uploaded
+0057.782 (0) backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz: db: This file has not yet been successfully uploaded: will queue
+0057.784 (0) Saving backup history. Total backup size: 247 MB
+0057.789 (0) Requesting upload of the files that have not yet been successfully uploaded (1)
+0057.809 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0057.811 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-9126192af28d30d943a7aae9dd6dfcf6)
+0058.134 (0) Google Drive: quota usage: used=391.6 MB, total=15360 MB, available=14968.4 MB
+0058.136 (0) Google Drive: backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz: Attempting to upload to Google Drive (into folder id: 1rPWwRJtQpSGBJFaZQiMrwVvCcu7tCZTB)
+0058.917 (0) Googledrive chunked upload: 30.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 14.4 / 48)
+0059.118 (0) Googledrive chunked upload: 91.1 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 14.4 / 48)
+0060.676 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0060.683 (0) Google Drive: OK: Archive backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz uploaded in 2.54 seconds
+0060.685 (0) Recording as successfully uploaded: backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz
+0060.690 (0) Deleting local file: backup_2024-09-04-0712_FeelMe_AI_652319859582-db.gz: OK
+0060.695 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0060.698 (0) Number of backup sets in history: 1; groups (db): 1
+0060.699 (0) Examining (for databases) backup set with group_id=0, nonce=652319859582, datestamp=1725433972 (Sep 04 2024 07:12:52)
+0060.701 (0) This backup set is the backup set just made, so will not be deleted.
+0060.701 (0) Number of backup sets in history: 1; groups (files): 1
+0060.703 (0) Examining (for files) backup set with nonce=652319859582, datestamp=1725433972 (Sep 04 2024 07:12:52)
+0060.703 (0) This backup set is the backup set just made, so will not be deleted.
+0060.704 (0) This backup set is the backup set just made, so will not be deleted.
+0060.704 (0) This backup set is the backup set just made, so will not be deleted.
+0060.704 (0) This backup set is the backup set just made, so will not be deleted.
+0060.704 (0) This backup set is the backup set just made, so will not be deleted.
+0060.704 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0060.706 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0060.711 (0) Resume backup (652319859582, 0): finish run
+0060.717 (0) Decremented the semaphore (fd) by 1
+0060.724 (0) Semaphore (fd) unlocked
+0060.727 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0060.740 (0) Deleting zip manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-plugins.zip.list.tmp)
+0060.742 (0) Deleting zip manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-themes.zip.list.tmp)
+0060.744 (0) Deleting zip manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-uploads.zip.list.tmp)
+0060.746 (0) Deleting zip manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-mu-plugins.zip.list.tmp)
+0060.749 (0) Deleting zip manifest (backup_2024-09-04-0712_FeelMe_AI_652319859582-others.zip.list.tmp)
+0060.751 (0) No email will/can be sent - the user has not configured an email address.
+0060.753 (0) The backup succeeded and is now complete
